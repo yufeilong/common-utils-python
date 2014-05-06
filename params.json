@@ -1,1 +1,7 @@
-{"":""}
+{
+    "jdk_file_path":"/home/fabian/Downloads/hello.tar.gz",
+    "jdk_target_path":"/home/fabian/Documents/target",
+    "config_file_path":"/home/fabian/.test",
+    "config_file_add":"export JAVA_HOME=/usr/lib/jvm/jdk\nexport JRE_HOME=${JAVA_HOME}/jre\nexport CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib\nexport PATH=${JAVA_HOME}/bin:$PATH"
+
+}
