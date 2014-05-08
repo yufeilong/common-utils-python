@@ -2,6 +2,9 @@
     "jdk_file_path":"/home/fabian/Downloads/hello.tar.gz",
     "jdk_target_path":"/home/fabian/Documents/target",
     "config_file_path":"/home/fabian/.test",
-    "config_file_add":"export JAVA_HOME=/usr/lib/jvm/jdk\nexport JRE_HOME=${JAVA_HOME}/jre\nexport CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib\nexport PATH=${JAVA_HOME}/bin:$PATH"
-
+    "config_file_add":"export JAVA_HOME=/usr/lib/jvm/jdk\nexport JRE_HOME=${JAVA_HOME}/jre\nexport CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib\nexport PATH=${JAVA_HOME}/bin:$PATH",
+    "cygwin_install_path":"D:\\cygwin64",
+    "cygwin_config_add":"@echo off\nset _T=%CD%\necho %_T\nD:\nchdir D:\\cygwin64\\bin\n@rem bash --login -i\nstart mintty.exe -e /bin/bash --login -i",
+    "cygwin_user_name":"Administrator",
+    "cygwin_bash_add":"export _T=${_T//\\\\//}\nif [ $_T == \"\" ]; then\nexport _T=~\nfi\ncd \"$_T\""
 }
